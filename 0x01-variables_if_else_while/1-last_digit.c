@@ -4,10 +4,9 @@
 /* more headers goes there */
 
 /**
-* main - to find last number 
-* @n to to insert into an int a value of random numbers
-* @lastDigit will take last digit of n random number 
-* 
+*main - to find last number
+*@n to to insert into an int a value of random numbers
+*@lastDigit will take last digit of n random number
 */
 int main(void)
 {
