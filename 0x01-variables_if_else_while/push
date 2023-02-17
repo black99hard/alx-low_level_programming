@@ -11,10 +11,10 @@ if[ "$service" == "$push" ] then
     git commit -m 'done'
 
     git push origin main
-fi
+
 
 
 
 if [ "$service" = "$pull" ]; then
       git pull origin main
-fi
+
