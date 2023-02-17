@@ -1,0 +1,16 @@
+#!/bin/bash
+
+read service
+
+
+if[ "$service" == "push" ]
+    git add .
+ 
+    git commit -m 'done'
+
+    git push origin main
+fi
+
+if[ "$service" == "pull" ]
+    git pull origin main
+fi
