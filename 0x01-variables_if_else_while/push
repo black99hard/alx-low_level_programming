@@ -1,9 +1,11 @@
 #!/bin/bash
 
 read service
+pull="pull"
+push="push"
 
 
-if[ "$service" == "push" ]
+if[ "$service" == "$push" ] then
     git add .
  
     git commit -m 'done'
@@ -11,6 +13,8 @@ if[ "$service" == "push" ]
     git push origin main
 fi
 
-if[ "$service" == "pull" ]
-    git pull origin main
+
+
+if [ "$service" = "$pull" ]; then
+      git pull origin main
 fi
