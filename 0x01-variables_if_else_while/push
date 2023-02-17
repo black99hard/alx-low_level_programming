@@ -5,16 +5,15 @@ pull="pull"
 push="push"
 
 
-if[ "$service" == "$push" ] then
+if[ "$service" = "$push" ] then
     git add .
  
     git commit -m 'done'
 
     git push origin main
-
-
-
+fi
 
 if [ "$service" = "$pull" ]; then
       git pull origin main
 
+fi
