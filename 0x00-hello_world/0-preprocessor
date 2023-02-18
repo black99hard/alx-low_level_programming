@@ -13,4 +13,12 @@ then
     git push 
 
     echo "pushed  Sir"
+
+elif [ "$service" == "pull" ]
+then
+    git pull 
+    
+    echo "pulled Sir"
+else
+echo "is not working"
 fi
