@@ -1,6 +1,6 @@
 #include<unistd.h>
 /*
-*for quote.c
+*man - quote.c
 *Return 0
 */
 int main(void)
