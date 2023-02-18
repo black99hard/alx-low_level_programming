@@ -1,9 +1,12 @@
 #include<unistd.h>
-/*header file goes here*/
-/*
- * Main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
- *                followed by a new line, to standard error.
-*Return: 1
+
+/* more headers goes there */
+
+/**
+*main - to find last number
+*
+*
+*Return: the success
 */
 int main(void)
 {
