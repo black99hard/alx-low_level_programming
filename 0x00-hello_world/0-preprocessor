@@ -1,0 +1,16 @@
+#!/bin/bash
+
+read -p "enter your name" service
+
+echo -e "$service"
+
+if [ "$service" == "push" ] 
+then
+    git add .
+    
+    git commit -m 'd'
+
+    git push 
+
+    echo "pushed  Sir"
+fi
