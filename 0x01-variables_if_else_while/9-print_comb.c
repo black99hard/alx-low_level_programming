@@ -17,6 +17,7 @@ for (ch = '0'; ch <= '9' ; ch++)
 if(ch == '9')
 {
 putchar(ch);
+putchar(10);
 
 break;
 }
