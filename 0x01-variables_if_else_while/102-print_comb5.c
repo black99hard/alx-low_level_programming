@@ -32,8 +32,5 @@ putchar('\n');
 return (0);
 }
 
-putchar(10);
-return (0);
 
-return (0);
-}
+
