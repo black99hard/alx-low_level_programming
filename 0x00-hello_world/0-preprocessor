@@ -1,24 +1,2 @@
 #!/bin/bash
-
-read -p "PULL or PUSH " service
-
-
-
-if [ "$service" == "push" ] 
-then
-    git add .
-    
-    git commit -m 'd'
-
-    git push 
-
-    echo "pushed  Sir"
-
-elif [ "$service" == "pull" ]
-then
-    git pull 
-
-    echo "pulled Sir"
-else
-echo "only Pull or Push can be used"
-fi
+gcc $CFILE -E -o c
