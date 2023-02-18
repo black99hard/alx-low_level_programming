@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "enter your name" service
+read -p "PULL or PUSH " service
 
-echo -e "$service"
+
 
 if [ "$service" == "push" ] 
 then
@@ -17,8 +17,8 @@ then
 elif [ "$service" == "pull" ]
 then
     git pull 
-    
+
     echo "pulled Sir"
 else
-echo "is not working"
+echo "only Pull or Push can be used"
 fi
