@@ -14,18 +14,18 @@ int ch;
 
 for (ch = '0'; ch <= '9' ; ch++)
 {
+
+
+putchar(ch);
 if(ch == '9')
 {
-putchar(ch);
-putchar(10);
-
 break;
 }
-putchar(ch);
 putchar(44);
 putchar(32);
 
 }
+putchar(10);
 
 
 
