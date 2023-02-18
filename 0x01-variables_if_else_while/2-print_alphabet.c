@@ -3,15 +3,19 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* find the last digit of the given random numbers */
+/**
+ * *main - find the last digit of the given random numbers
+ * @ch to insert the characters fuond during the  looping
+ * Return: return success if went well
+ */
 int main(void)
 {
-    
-    int ch;
-                                             for(ch = 'a'; ch < 'y';ch++){
-                                                putchar(ch);
-
-                                             }
-	
-	return (0);
+   int ch;
+   for(ch = 'a'; ch <= 'z';ch++) 
+   {
+   putchar(ch);
+   }
+   
+   
+   return (0);
 }
