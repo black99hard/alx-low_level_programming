@@ -16,11 +16,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n < 0)
-		printf("is negtaive");
+		printf("is negtaive \n");
 	if (n > 0)
-		printf("is postive");
+		printf("is postive \n");
 	if (n == 0)
-		printf("is zero");
+		printf("is zero \n");
 	return (0);
 
 }
