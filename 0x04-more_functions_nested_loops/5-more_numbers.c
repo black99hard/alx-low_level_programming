@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-*print_most_numbers- print 0123456789
+*more_numbers- print 0123456789
 * owned by Bwave ICT
 *Return: void
 */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int i, j;
 	for (i = 1; i <= 10; i++)
