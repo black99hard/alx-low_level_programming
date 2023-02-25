@@ -15,5 +15,5 @@ if (i != '2' && i != '4')
 putchar(i);
 }
 }
-putchar("\n");
+putchar('\n');
 }
