@@ -7,19 +7,15 @@
 */
 void print_most_numbers(void)
 {
-int t;
-int n;
-
-for (t = '0'; t <= '10'; t++)
-{
-for (n = 0; n < 14; n++)
-{
-if (n >= 10)
-{
-putchar('1');
-}
-_putchar(n % 10 + '0');
-}
-putchar(10);
-}
+int i, j;
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
+		}
+			_putchar('\n');
+		}
 }
