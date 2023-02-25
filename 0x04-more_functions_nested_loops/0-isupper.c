@@ -7,27 +7,13 @@
  */
 int _isupper(int c)
 {
-int uchr;
-int lchr;
 
-for (uchr = 'a'; uchr <= 'z'; uchr++)
-{
-if (uchr == c)
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
-
-}
-
-for (lchr = 'A'; lchr <= 'Z'; lchr++)
-{
-if (c == lchr)
+else
 {
 return (0);
-
 }
-
-}
-
-return (0);
 }
