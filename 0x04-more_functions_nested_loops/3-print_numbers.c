@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
-* print_numbers - multiplies two integers
-* Return: addition of a and b
+*print_numbers - print 0123456789
+* owned by Bwave ICT
+*Return: void
 */
+
 void print_numbers(void)
 {
-char i;
-for (i = '0'; i <= '9'; i++)
-{
-_putchar(i);
-}
-_putchar(i);
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }
