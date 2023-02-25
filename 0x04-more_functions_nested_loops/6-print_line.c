@@ -16,5 +16,6 @@ putchar('_');
 }
 putchar(10);
 }
+else
 putchar(10);
 }
