@@ -11,7 +11,7 @@ int i;
 int t;
 if (!(n <= 0))
 {
-for (t =0; t < n; t++)
+for (t = 0; t < n; t++)
 {
 for (i = 0; i < t; i++)
 {
