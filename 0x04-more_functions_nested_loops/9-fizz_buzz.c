@@ -5,8 +5,7 @@
 
 
 /**
-*print_square- print 0123456789
-
+*main - print 0123456789
 *Return: void
 */
 int main(void)
