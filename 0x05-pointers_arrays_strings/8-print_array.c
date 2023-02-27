@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array - prints n 
+ * print_array - prints n
  * @a: int to check
  * @n: int to check
  * Return: 0 is success
