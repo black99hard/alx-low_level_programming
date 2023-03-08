@@ -7,7 +7,7 @@
 * @n: char to check
 * Return:  0 or 1
 **/
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	 unsigned int i = 0;
 
