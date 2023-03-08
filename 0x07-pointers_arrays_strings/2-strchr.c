@@ -6,7 +6,7 @@
 * @c: char to check
 * Return:  0 or 1
 **/
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	while (*p)
 	{
