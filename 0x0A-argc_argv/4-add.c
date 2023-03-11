@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 /**
-*main- the main functions
-*@argc: the argu
-*@argv: the second argu
-*Return: 0
-**/
+ * main - adds positive numbers.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
 int main(int argc, char **argv)
 {
 	int i, n, sum = 0;

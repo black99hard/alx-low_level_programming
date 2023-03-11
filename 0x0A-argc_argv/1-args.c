@@ -1,14 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-*main- the main functions
-*@argc: the argu
-*@argv: the second argu
-*Return: 0
-**/
-int main(int argc, char *argv[])
+ * main - prints the number of arguments passed into it.
+ * @argc: argument count
+ * @argv: arguments
+ *
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
-	printf("%d \n", argc);
-return (0);
+	(void)argv;
+
+	printf("%d\n", argc - 1);
+	return (0);
 }
