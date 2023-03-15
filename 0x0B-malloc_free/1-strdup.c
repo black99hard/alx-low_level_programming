@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 /**
  * _strdup - prints its name, followed by a new line.
  * @str: argument count
@@ -8,7 +10,7 @@
 char *_strdup(char *str)
 {
 	char *s;
-	int len = strlen(str);
+	unsigned int len = strlen(str);
 	int i = 0;
 
 	if (!(malloc(sizeof(*str) * len)) || == NULL)
