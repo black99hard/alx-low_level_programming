@@ -12,23 +12,22 @@ size_t print_list(const list_t *h)
 {
 int node = 0;
 
-if (h == NULL)
+	if (h == NULL)
+		exit(EXIT_FAILURE);
 
-exit(EXIT_FAILURE);
+	while (h != NULL)
+	{
 
-while (h != NULL)
-{
-
-if (h->str == NULL)
-{
-printf("[0] (nil)\n");
-}
-else
-{
-printf("[%d] %s\n", h->len, h->str);
-}
-node++;
-h = h->next;
-}
-return (node);
+		if (h->str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
+		else
+		{
+			printf("[%d] %s\n", h->len, h->str);
+		}
+		node++;
+		h = h->next;
+	}
+	return (node);
 }
